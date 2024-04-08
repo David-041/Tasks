@@ -1,0 +1,30 @@
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(165, 42, 42, 0.884);
+    color: #333;
+    text-align: left;
+}
+
+header {
+    background-color: rgba(165, 42, 42, 0.884);
+    color: white;
+    text-align: left;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: left;
+}
+
+p {
+    color: white;
+}
+
