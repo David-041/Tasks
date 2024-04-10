@@ -1,11 +1,9 @@
 
-body, h1, h2, p, i, a {
+body, h1, h2, p, i, a, img {
     margin: 0;
     padding: 0;
 }
 h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
     color:aqua;
 }
 
@@ -19,6 +17,8 @@ body {
 header {
     color: white;
     text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
 }
 
 main {   
@@ -39,4 +39,13 @@ a{
 }
 p1{
     color: white;
+}
+p2{
+    color: white;
+}
+img{
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+  
 }
