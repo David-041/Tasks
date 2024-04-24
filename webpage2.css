@@ -1,5 +1,5 @@
 
-body, h1, h2, p, i, a, img {
+body, h1, h2, section, i, a, img {
     margin: 0;
     padding: 0;
 }
@@ -10,9 +10,9 @@ h1{
 body { 
     font-family: Arial, sans-serif;
     background-color: rgba(165, 42, 42, 0.884);
-    color: #333;
+    color: black;
     text-align: left;
-}
+} 
 
 header {
     color: white;
@@ -28,7 +28,7 @@ main {
     text-align: left;
 }
 
-p {
+section {
     color: white;
 }
 i{
@@ -37,16 +37,22 @@ i{
 a{
     color: red;
 }
-p1{
-    color: white;
-}
-p2{
-    color: white;
+ul, ol{
+    padding-left: 20px;
 }
 img{
     border-radius: 4px;
     padding: 5px;
     width: 300px;
     margin: 10px;
-  
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+    img {
+        display: block;
+        margin: 0 auto;
+    }
 }
